@@ -122,5 +122,22 @@
     (4 rows)
 
 
+#### update a row
 
+    motorsport=# select * from f1_teams; 
+    
+     id | team_name 
+    ----+-----------
+      1 | williams
+      2 | mercedes
+      3 | red bull
+      4 | alfa
+      5 | haas
+      6 | alpine
+      7 | ferrari
+      8 | mclaren
+    (8 rows)
+
+
+    motorsport=# UPDATE f1_teams SET team_name = 'alfa romeo' WHERE team_name = 'alfa';
     
