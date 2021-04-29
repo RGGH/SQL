@@ -1,4 +1,4 @@
-### connect to postgres
+### connect as postgres user
 
     sudo -i -u postgres
 
